@@ -194,9 +194,9 @@ const interval = setInterval(updateCountdown, 1000);
 var canvasDiv = document.getElementById('particle-canvas');
 var options = {
     particleColor: '#888',
-    background: 'https://raw.githubusercontent.com/JulianLaval/canvas-particle-network/master/img/demo-bg.jpg',
+    background: 'img.jpg',
     interactive: true,
-    speed: 'medium',
-    density: 'high'
+    speed: 'slow',
+    density: 'low'
 };
 var particleCanvas = new ParticleNetwork(canvasDiv,options);
