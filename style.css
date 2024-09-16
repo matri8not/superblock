@@ -1,8 +1,8 @@
 #countdown {
 font-size: 1.2em;
-font-weight: bold;
-color: #69a6fca5; 
-background-color:#7935B5 ;
+/* font-weight: bold; */
+/* color: #69a6fca5; 
+background-color:#7935B5 ; */
 padding: 10px;
 border-radius: 10px;
 display: inline-block;
@@ -25,7 +25,7 @@ body, html {
     background-color: black;
 }
 .text-content {
-    background: #ffffff3b;
+    /* background: #ffffff3b; */
     z-index: 33;
     position: absolute;
     top: 50%;
@@ -39,15 +39,28 @@ body, html {
     padding-bottom: 1%;
 }
 .text-content h1 {
-    font-size: 3em;
+    text-align: justify;
+    font-size: 2.2em;
     margin: 0;
 }
 .text-content p {
     font-size: 1.2em;
     text-shadow: 2px 2px 6px #6a3db1;
+    font-weight: 100;
 }
 
 #particle-canvas {
     width: 100%;
     height: 100%;
   }
+
+.button-container>*{
+    color:white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    line-height: 4rem;
+  }
+
+.button-container > *:hover {
+    color: gray;
+}
